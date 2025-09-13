@@ -4,14 +4,14 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
-## 🎯 **MAJOR DISCOVERY: First Identification of LINC01322 in Oral Cancer**
+## **MAJOR DISCOVERY: First Identification of LINC01322 in Oral Cancer**
 
 This repository contains the **first-ever study** of LINC01322 (long intergenic non-protein coding RNA 1322) in oral submucous fibrosis (OSF) and oral squamous cell carcinoma (OSCC) transformation. Our comprehensive transcriptomic analysis reveals **LINC01322 as a novel biomarker** for OSF malignant transformation risk stratification.
 
-## 🏆 **Key Findings**
+## **Key Findings**
 
 ### Novel Discovery
-- **🚨 ZERO prior research** on LINC01322 in any oral disease context (confirmed via comprehensive PubMed search)
+- **ZERO prior research** on LINC01322 in any oral disease context (confirmed via comprehensive PubMed search)
 - **First identification** of LINC01322 as OSF transformation biomarker
 - **Novel lncRNA-based** OSF molecular subtyping system
 
@@ -25,14 +25,14 @@ This repository contains the **first-ever study** of LINC01322 (long intergenic 
 - **Regulatory Role**: Known neurogenesis regulator with novel oral cancer function
 - **Expression Pattern**: Dramatic upregulation in high-risk OSF and OSCC samples
 
-## 📊 **Datasets Analyzed**
+## **Datasets Analyzed**
 
 | Dataset | Samples | Design | Purpose |
 |---------|---------|---------|----------|
 | **GSE274203** | 6 samples (2 Normal, 2 OSF, 2 OSCC) | Cross-sectional comparison | Primary discovery |
 | **GSE274202** | 4 samples (2 Normal, 2 OSF-OSCC) | Matched normal-tumor pairs | Independent validation |
 
-## 🔬 **Methodology**
+## **Methodology**
 
 ### Data Processing Pipeline
 1. **SOFT file parsing** from GEO datasets
@@ -47,7 +47,7 @@ This repository contains the **first-ever study** of LINC01322 (long intergenic 
 - **Analysis**: T-tests with p<0.05 significance threshold
 - **Validation**: Cross-dataset consistency verification
 
-## 📈 **Results Summary**
+## **Results Summary**
 
 ### Differential Expression Analysis
 - **Normal → OSF**: 17 differentially expressed genes
@@ -66,7 +66,7 @@ This repository contains the **first-ever study** of LINC01322 (long intergenic 
 - **High-Risk OSF**: Low LINC01322 expression, closer to normal profile
 - **Low-Risk OSF**: High LINC01322 expression, intermediate transformation state
 
-## 📁 **Repository Structure**
+## **Repository Structure**
 
 ```
 OSF/
@@ -85,7 +85,7 @@ OSF/
     └── Include/                 # Header files
 ```
 
-## 🚀 **Getting Started**
+## **Getting Started**
 
 ### Prerequisites
 ```bash
@@ -117,7 +117,7 @@ jupyter notebook
 # All cells execute sequentially for complete analysis
 ```
 
-## 📄 **Key Files**
+## **Key Files**
 
 ### `oral.ipynb` - Complete Analysis Pipeline
 **17 cells containing:**
@@ -135,7 +135,7 @@ jupyter notebook
 - `preprocess_count_matrix()`: Data normalization
 - `calculate_differential_expression()`: Statistical analysis
 
-## 🎯 **Clinical Implications**
+## **Clinical Implications**
 
 ### Diagnostic Potential
 - **OSF Risk Assessment**: Molecular classification of OSF subtypes
@@ -159,7 +159,7 @@ jupyter notebook
 - **Key Message**: "First identification of LINC01322 as prognostic lncRNA biomarker for OSF malignant transformation"
 - **Expected Impact**: HIGH - Novel discovery with clinical utility
 
-## 📚 **Gene Annotation: LINC01322**
+## **Gene Annotation: LINC01322**
 
 | Property | Details |
 |----------|---------|
@@ -172,7 +172,7 @@ jupyter notebook
 | **Known Function** | Neurogenesis regulation, brain development |
 | **Exon Count** | 12 |
 
-## 🔮 **Future Directions**
+## **Future Directions**
 
 ### Immediate Next Steps
 1. **Manuscript Preparation**: Draft discovery paper for publication
@@ -184,7 +184,7 @@ jupyter notebook
 2. **Clinical Translation**: Develop diagnostic assays
 3. **Therapeutic Targets**: Explore LINC01322-based interventions
 
-## 📊 **Statistical Summary**
+## **Statistical Summary**
 
 ### Dataset Statistics
 - **Total Genes Analyzed**: 57,773 → 1,000 (high-variance selection)
@@ -197,37 +197,3 @@ jupyter notebook
 - **35 DEGs**: OSF → OSCC progression  
 - **211 DEGs**: Normal → OSCC transformation
 - **100% Novelty**: Zero prior LINC01322 oral cancer studies
-
-## 🏅 **Awards & Recognition**
-
-**Potential Impact:**
-- First-mover advantage in lncRNA-based OSF research
-- Novel biomarker discovery with clinical translation potential
-- Pioneering molecular subtyping approach for OSF
-
-## 👥 **Contributing**
-
-This repository represents a complete analysis pipeline for OSF transformation research. For collaborations or questions about the methodology, please open an issue or contact the repository maintainer.
-
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 **Acknowledgments**
-
-- **GEO Database**: For providing publicly available transcriptomic datasets
-- **OSF Research Community**: For advancing understanding of this critical pre-cancerous condition
-- **Open Science**: For enabling reproducible research through data sharing
-
----
-
-## 📞 **Contact**
-
-For questions about this analysis or potential collaborations:
-- **Repository**: https://github.com/justavik/OSF
-- **Issues**: Submit via GitHub Issues for technical questions
-- **Research Inquiries**: Contact repository maintainer for collaboration discussions
-
----
-
-**🎉 This repository contains the first-ever identification of LINC01322 in oral cancer research - a potentially high-impact discovery ready for publication!**
